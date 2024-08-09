@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyndryl | Registrar Nueva PQR</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <link rel="shortcut icon" type="img/x-icon" href="img/Logo_letraK.ico">
+  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+     .formulario .form-horizontal h3{
+      text-align: center;
+      margin-bottom: 30px;
+      /*font-family: "Roboto", bold;*/
+    }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/kyndryl_logo_color_rgb.png" alt="Logo Kyndryl">
+            </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="MenuPrincipal.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+   
+
+  <div class="formulario"> 
+		<form name="miFormulario1" class="form-horizontal " method="" action="">
+      <h3 class="mb-0">Registrar nueva PQR</h3>
+      <br>
+      <div class="form-group">
+		    <label class="col-xs-2 control-label">Fecha Recepción</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="NumId" name="NumId" class="form-control input-xs" tabindex="1">
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Correo Electronico</label>
+		    <div class="col-xs-10">
+		      <input type="email" id="CorreoElectronico" name="CorreoElectronico" class="form-control input-xs" tabindex="2">
+		    </div>
+			
+		<div class="form-group">
+		    <label class="col-xs-2 control-label">Asunto PQR</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="AsuntoPQR" name="AsuntoPQR" class="form-control input-xs" tabindex="3">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label class="col-xs-2 control-label">Categoría</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="Categoria" name="Categoria" class="form-control input-xs" tabindex="4">
+		    </div>
+		  </div>
+		    <div class="form-group">
+		    <label class="col-xs-2 control-label">Sub Categoría</label>
+		    <div class="col-xs-10">
+		      <input type="text" id="SubCategoria" name="SubCategoria" class="form-control input-xs" tabindex="5">
+		    </div>
+		  </div>
+      </div>
+      
+     <div>
+          <div class="form-group">
+            <label class="col-xs-2 control-label">Descripción de solicitud</label>
+            <textarea class="form-control" id="DescripcionSolicitud" name="DescripcionSolicitud" rows="5" maxlength="450" tabindex="6"></textarea>
+          </div>
+      </div>
+
+      <input type="button" id="btn_enviar" class="btn_enviar" value="Enviar" onclick="openPopup()" tabindex="7">
+	  <input type="button" id="btn_cancelar" class="btn_cancelar" value="Cancelar" onclick="location.href='MenuPrincipal.html'" tabindex="8">  
+	</form>
+    
+  </div>
+  <!-- Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h3>Confirmación</h3>
+            <p>PQR registrada exitosamente.</p>
+            <button onclick="redirectToIndex()">Aceptar</button>
+        </div>
+    </div>
+
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+
+        function redirectToIndex() {
+            window.location.href = 'formulario.html';
+        }
+    </script>
+    
+</body>
+</html>

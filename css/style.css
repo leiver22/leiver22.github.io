@@ -1,0 +1,364 @@
+nav{
+  background: red;
+  margin-bottom: 4em;
+}
+nav.navbar ul.nav li {
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+
+}
+ 
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+     background-color: white;
+}
+
+.logo{
+  width: 160px; 
+}
+
+li a{
+  color: #191818;
+  font-size: 12px; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #F16A4D;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ca9999;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #E19381;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #F16A4D;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+.login{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #F16A4D;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 500px; 
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.formulario{ 
+width: 800px;       
+height: 100px;
+margin: 0 auto;
+}
+
+.formula2{ 
+  width: 1000px;       
+  height: 300px;
+  margin: 0 auto;
+}
+
+.form-horizontal {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 700px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.formulario .form-horizontal .btn_enviar{
+  background: #4CAF30;
+  color: #FFFFFF;
+}
+
+.formula2 .form-horizontal2{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 900px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.formulario input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.formulario textarea{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.enviar{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  /*background: #4CAF30;*/
+  background: #4CAF30;
+  width: 100%;
+  border: 10;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  width: 600px; 
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-left: 11em;
+}
+
+/*
+Estilos para la tabla
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.pqr-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.pqr-table th, .pqr-table td {
+    padding: 12px 15px;
+}
+
+.pqr-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.pqr-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.pqr-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.pqr-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item h3 .emoji {
+    margin-left: 10px;
+}
+
+.menu-item p {
+    color: #555;
+}
+
+.menu-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+/* Popup Styles */
+.popup {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup-content h3 {
+    margin-top: 0;
+}
+
+.popup-content p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #218838;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
